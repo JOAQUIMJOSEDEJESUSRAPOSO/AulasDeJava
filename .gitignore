@@ -1,0 +1,17 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build output
+out/
+target/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
