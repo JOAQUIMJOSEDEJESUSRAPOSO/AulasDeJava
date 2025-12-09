@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Main {
 
     public static void main (String[] args) {
@@ -13,6 +14,7 @@ public class Main {
         boolean bool = true;
 
         //Sistema de condicionais
+
         if (str == "Joaquim") {
             System.out.println("Verdadeiro");
         } else if (str == "Anna") {
@@ -22,6 +24,7 @@ public class Main {
         }
 
         //Vetores
+
         //primeira forma de iniciar um array
         int[] colecaoDeValores = {1, 2, 3, 4, 5}; //aqui eu inicio passando o tamanho e os valores do meu array
 
@@ -31,5 +34,16 @@ public class Main {
         int[] meusNumeros = new int[5]; //aqui eu inicio passando o tamanho do meu array
 
         System.out.println(colecaoDeValores.length);
+
+        //ArrayList
+
+        ArrayList<String>name = new ArrayList<>();
+        name.add("Joaquim"); //para adicionar um intem na lista utilizasse o metodo .add()
+        name.add("Yasmin");
+        name.add("Damares");
+        name.add("Gessica");
+        name.remove(0); //para remover um item da lista utilizasse o metodo .remove()
+        System.out.println(name.get(0));
+        System.out.println(name);
     }
 }
