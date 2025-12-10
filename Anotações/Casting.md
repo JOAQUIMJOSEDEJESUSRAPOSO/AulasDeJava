@@ -4,5 +4,5 @@
 
 
 ### Conversão de tipos
-- para passar de String para Inteiro utiliza o ``Interger.parseInt(String)``
+- para passar de String para Inteiro utiliza o ``Integer.parseInt(String)``
 - para passar de Inteiro para String utiliza o ``String.valueOf(Inteiro)``

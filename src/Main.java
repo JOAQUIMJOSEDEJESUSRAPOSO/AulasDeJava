@@ -83,7 +83,7 @@ public class Main {
 
         //Passando de String para Inteiro
         String meuString = "10";
-        int meuInt2 = Interger.parseInt(meuString); //utilizo a classe Interger e o metodo parseInt para fazer a conversão
+        int meuInt2 = Integer.parseInt(meuString); //utilizo a classe Interger e o metodo parseInt para fazer a conversão
 
         //Passando de Inteiro para String
         String minhaString = String.valueOf(meuInt2);
