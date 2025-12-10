@@ -71,5 +71,23 @@ public class Main {
             contador++;
         }
 
+        //Casting
+
+        //Casting explicito
+        double resultado = 5.5;
+        int resultadoInt = (int) resultado;
+
+        //Casting implícito
+        int meuInt = 10;
+        double meuDouble = meuInt;
+
+        //Passando de String para Inteiro
+        String meuString = "10";
+        int meuInt2 = Interger.parseInt(meuString); //utilizo a classe Interger e o metodo parseInt para fazer a conversão
+
+        //Passando de Inteiro para String
+        String minhaString = String.valueOf(meuInt2);
+
+
     }
 }
