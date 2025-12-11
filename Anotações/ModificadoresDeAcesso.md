@@ -50,7 +50,7 @@
 
 ### Para métodos e atributos
 
-- mAcesso permitido para:
+- Acesso permitido para:
 
 - Classes do mesmo pacote
 
