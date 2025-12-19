@@ -1,3 +1,5 @@
+package ExplicaçoesImportantes;
+
 import java.util.ArrayList;
 public class Main {
 
@@ -69,6 +71,7 @@ public class Main {
         while (contador < 10){
             System.out.println("Estou no while");
             contador++;
+
         }
 
         //Casting

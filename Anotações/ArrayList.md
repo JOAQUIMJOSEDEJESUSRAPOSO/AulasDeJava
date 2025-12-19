@@ -32,7 +32,7 @@
 
 import java.util.ArrayList;
 
-public class Main {
+public class ExplicaçoesImportantes.Main {
 ```public static void main(String[] args) {
 
         ArrayList<String> nomes = new ArrayList<>();
